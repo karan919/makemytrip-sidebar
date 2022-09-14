@@ -2,6 +2,8 @@
 
 Live Link: [https://joyful-palmier-5ff786.netlify.app](https://joyful-palmier-5ff786.netlify.app)
 
+Created responsive sidebar using React, styled-components and react-router-dom
+
 
 ## Available Scripts
 
