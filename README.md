@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Makemytrip Sidebar demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link: [https://joyful-palmier-5ff786.netlify.app](https://joyful-palmier-5ff786.netlify.app)
+
 
 ## Available Scripts
 
