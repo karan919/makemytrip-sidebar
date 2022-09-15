@@ -8,8 +8,8 @@ import {
   NavbarLinkContainer,
   NavbarLink,
   OpenSideBarButton,
-  CloseSideBarButton,
   NavbarLinkSideBar,
+  Backdrop,
 } from "./Styles";
 
 const Navigation = () => {
@@ -37,19 +37,15 @@ const Navigation = () => {
         </NavbarLinkContainer>
       </NavbarInnerContainer>
       {extendNavbar && (
-        <NavbarExtendedContainer>
-          <CloseSideBarButton
-            onClick={toggleSidebar}
-            aria-label="Close"
-            aria-expanded="true"
-          >
-            &times;
-          </CloseSideBarButton>
-          <NavbarLinkSideBar to="flights">Flights</NavbarLinkSideBar>
-          <NavbarLinkSideBar to="hotels">Hotels</NavbarLinkSideBar>
-          <NavbarLinkSideBar to="trains">Trains</NavbarLinkSideBar>
-          <NavbarLinkSideBar to="homestays">Homestays</NavbarLinkSideBar>
-        </NavbarExtendedContainer>
+        <>
+          <Backdrop onClick={toggleSidebar} />
+          <NavbarExtendedContainer>
+            <NavbarLinkSideBar to="flights">Flights</NavbarLinkSideBar>
+            <NavbarLinkSideBar to="hotels">Hotels</NavbarLinkSideBar>
+            <NavbarLinkSideBar to="trains">Trains</NavbarLinkSideBar>
+            <NavbarLinkSideBar to="homestays">Homestays</NavbarLinkSideBar>
+          </NavbarExtendedContainer>
+        </>
       )}
     </NavbarContainer>
   );
