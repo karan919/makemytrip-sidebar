@@ -1,6 +1,8 @@
 # Makemytrip Navigation Menu demo
 
-Live Link: [https://joyful-palmier-5ff786.netlify.app](https://joyful-palmier-5ff786.netlify.app)
+Live Link (main branch): [https://joyful-palmier-5ff786.netlify.app](https://joyful-palmier-5ff786.netlify.app)
+
+Live Link with backdrop (v2 branch): [https://harmonious-biscotti-65710b.netlify.app/](https://harmonious-biscotti-65710b.netlify.app/)
 
 Created responsive navigation menu using React, styled-components and react-router-dom
 
